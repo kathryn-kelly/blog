@@ -1,5 +1,4 @@
 module.exports = {
-  secrets: "meencantalamusica",
-  database:
-    "mongodb://noder:noderauth&54;proximus.modulusmongo.net:27017/so9pojyN"
+  secret: "meencantalamusica",
+  database: "mongodb://localhost/blog"
 };

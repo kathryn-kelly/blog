@@ -1,5 +1,5 @@
 let mongoose = require("mongoose");
-let schema = mongoose.Schema;
+let Schema = mongoose.Schema;
 
 module.exports = mongoose.model(
   "User",
