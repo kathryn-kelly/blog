@@ -15,8 +15,6 @@ app.use(morgan("dev"));
 
 var apiRoutes = express.Router();
 
-// TODO: route to authenticate a user (POST http://localhost:8080/api/authenticate)
-
 apiRoutes.post("/authenticate", function(req, res) {
   console.log("req.body", req.body);
   User.findOne(
